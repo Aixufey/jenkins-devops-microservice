@@ -30,7 +30,9 @@ pipeline {
                 echo 'Integration Test'
             }
         }
-    } post {
+    }
+
+    post {
         always {
             echo 'This will always run'
         }
